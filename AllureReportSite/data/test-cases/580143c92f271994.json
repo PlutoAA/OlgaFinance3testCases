@@ -1,0 +1,179 @@
+{
+  "uid" : "580143c92f271994",
+  "name" : "Авторизация с неверными данными",
+  "fullName" : "web.OlgaFinanceTest.badLogin",
+  "historyId" : "db412a72c935a9371bcedddff0cf240d",
+  "time" : {
+    "start" : 1683295291825,
+    "stop" : 1683295294686,
+    "duration" : 2861
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация",
+      "time" : {
+        "start" : 1683295294167,
+        "stop" : 1683295294548,
+        "duration" : 381
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод email",
+        "time" : {
+          "start" : 1683295294167,
+          "stop" : 1683295294393,
+          "duration" : 226
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "notvalid@gmail.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1683295294393,
+          "stop" : 1683295294492,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "notvalid"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Клип ко кнопке Lets go",
+        "time" : {
+          "start" : 1683295294492,
+          "stop" : 1683295294548,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "notvalid@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "notvalid"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка кнопки логина на странице",
+      "time" : {
+        "start" : 1683295294548,
+        "stop" : 1683295294569,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-TFM2F0J"
+  }, {
+    "name" : "thread",
+    "value" : "25220@DESKTOP-TFM2F0J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "badLogin"
+  }, {
+    "name" : "suite",
+    "value" : "OlgaFinance Тест-кейсы"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6eb6a40f11d1d01e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683293368366,
+        "stop" : 1683293373642,
+        "duration" : 5276
+      }
+    }, {
+      "uid" : "4e4493e5d9441dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683293211584,
+        "stop" : 1683293216716,
+        "duration" : 5132
+      }
+    }, {
+      "uid" : "5b0cefdc4291ed44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683292974328,
+        "stop" : 1683292979060,
+        "duration" : 4732
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "580143c92f271994.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,55 @@
+{
+  "uid" : "4e4493e5d9441dca",
+  "name" : "Авторизация с неверными данными",
+  "fullName" : "web.OlgaFinanceTest.badLogin",
+  "historyId" : "db412a72c935a9371bcedddff0cf240d",
+  "time" : {
+    "start" : 1683293211584,
+    "stop" : 1683293216716,
+    "duration" : 5132
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-TFM2F0J"
+  }, {
+    "name" : "thread",
+    "value" : "20964@DESKTOP-TFM2F0J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "badLogin"
+  }, {
+    "name" : "suite",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e4493e5d9441dca.json",
+  "parameterValues" : [ ]
+}
