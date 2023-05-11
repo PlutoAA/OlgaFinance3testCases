@@ -1,4 +1,4 @@
-package web.page;
+package org.automation.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,7 @@ public abstract class BasePage {
     protected static final String BASE_URL = "https://olga-finance.effective.band/";
     private static final Duration DEFAULT_TIMEOUT = Duration.ofSeconds(15);
 
-    protected WebDriver driver;
+    public static WebDriver driver;
     protected WebDriverWait wait;
 
     public BasePage(WebDriver driver){

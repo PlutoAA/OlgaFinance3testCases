@@ -2,16 +2,19 @@ package web;
 
 import com.google.common.io.Resources;
 import jdk.jfr.Description;
+import org.automation.TestListener;
+import org.automation.page.LoginPage;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import web.page.LoginPage;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.hasItems;
 
 @DisplayName("OlgaFinance Тест-кейсы")
+@ExtendWith(TestListener.class)
 public class OlgaFinanceTest {
 
     private ThreadLocal<WebDriver> driver = new ThreadLocal<>();
@@ -43,12 +46,12 @@ public class OlgaFinanceTest {
         driver.set(new ChromeDriver(options));
     }
 
-    @AfterEach
-    public void disposeDriver(){
-        if (driver != null){
-            driver.get().quit();
-        }
-    }
+//    @AfterEach
+//    public void disposeDriver(){
+//        if (driver != null){
+//            driver.get().quit();
+//        }
+//    }
 
     @Test
     @DisplayName("Авторизация с неверными данными")
@@ -56,7 +59,9 @@ public class OlgaFinanceTest {
     public void badLogin(){
         Assertions.assertTrue(
                 new LoginPage(driver.get())
-                        .loginAs(badEmail, badPassword)
+                        .typeEmail(badEmail)
+                        .typePassword(badPassword)
+                        .clickLogin()
                         .isButtonHere()
         );
     }
@@ -66,11 +71,17 @@ public class OlgaFinanceTest {
     @Description("Добавляет пользователя и ищет его в списке всех пользователей, если пользователь найден, тест считается выполненным")
     public void createMember(){
                 new LoginPage(driver.get())
-                        .loginAs(email, password)
+                        .typeEmail(email)
+                        .typePassword(password)
+                        .clickLogin()
                         .openTeamPage()
-                        .createMember(memberName, memberEmail);
+                        .openAddMemberMenu()
+                        .typeFullName(memberName)
+                        .typeEmail(memberEmail)
+                        .selectRole()
+                        .memberInviteClick();
 
-                        given().header("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI4YzE3MTA5My1kMDUyLTRkNzktYjg0ZS04NDVhZDBiNWM1ODIiLCJkZXZpY2VJZCI6Ijg4NzIyNWU5LTdlY2EtNDgyNC1iZmRhLTZmYjZhNWQzYWQ5MCIsImV4cGlyZXMiOiIyMDIzLTA1LTA2VDEwOjM3OjA5Ljk5MVoifQ.U78MH0k4Y1DfZ9ZhhyI0dyMCxbGbb9R-RXcRHU-91J0")
+                        given().header("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI4YzE3MTA5My1kMDUyLTRkNzktYjg0ZS04NDVhZDBiNWM1ODIiLCJkZXZpY2VJZCI6Ijg4NzIyNWU5LTdlY2EtNDgyNC1iZmRhLTZmYjZhNWQzYWQ5MCIsImV4cGlyZXMiOiIyMDIzLTA1LTEyVDE4OjQyOjE0LjE1NloifQ.MLOFItQZMpr4p6iEVAlQDj-VmeEXrOFm1SPMJj_pPEo")
                                 .when()
                                 .get("https://api.olga-finance.effective.band/profile/all")
                                 .then()
@@ -84,7 +95,9 @@ public class OlgaFinanceTest {
     public void projectPagination() {
         Assertions.assertTrue(
             new LoginPage(driver.get())
-                    .loginAs(email, password)
+                    .typeEmail(email)
+                    .typePassword(password)
+                    .clickLogin()
                     .openProjectPage()
                     .clickPaginationBtn()
                     .clickPagination15()

@@ -1,4 +1,4 @@
-package web.page;
+package org.automation.page;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -17,7 +17,7 @@ public class ProjectPage extends BaseLoggedInPage{
         super(driver);
     }
 
-    @Step("Клик по кнопке пагинации")
+    @Step("Нажать на кнопку пагинации")
     public ProjectPage clickPaginationBtn() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
@@ -25,7 +25,7 @@ public class ProjectPage extends BaseLoggedInPage{
         waitVisibility(paginationMenu);
         return this;
     }
-    @Step("Клик по кнопке выбора пагинации - 15")
+    @Step("Нажать на кнопку выбора пагинации - 15")
     public ProjectPage clickPagination15() {
         driver.findElement(pagination15).click();
         return this;

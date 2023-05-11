@@ -1,4 +1,4 @@
-package web.page;
+package org.automation.page;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -25,16 +25,10 @@ public class LoginPage extends BasePage{
         driver.findElement(passwordInput).sendKeys(password);
         return this;
     }
-    @Step("Клип ко кнопке Lets go")
+    @Step("Нажать на кнопку Lets go")
     public MainPage clickLogin(){
         driver.findElement(loginButton).click();
         return new MainPage(driver);
-    }
-    @Step("Авторизация")
-    public MainPage loginAs(String email, String password){
-        typeEmail(email);
-        typePassword(password);
-        return clickLogin();
     }
 
 }
