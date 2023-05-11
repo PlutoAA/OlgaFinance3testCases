@@ -1,0 +1,103 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-TFM2F0J",
+    "children" : [ {
+      "name" : "25220@DESKTOP-TFM2F0J.main(1)",
+      "children" : [ {
+        "name" : "Пагинация на странице проектов",
+        "uid" : "2424ce620f657202",
+        "parentUid" : "9bec266d7d234a92b149492c19093ccc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683295276973,
+          "stop" : 1683295283002,
+          "duration" : 6029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с неверными данными",
+        "uid" : "580143c92f271994",
+        "parentUid" : "9bec266d7d234a92b149492c19093ccc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683295291825,
+          "stop" : 1683295294686,
+          "duration" : 2861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание мембера",
+        "uid" : "633b0f881c7aeeaf",
+        "parentUid" : "9bec266d7d234a92b149492c19093ccc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683295283089,
+          "stop" : 1683295291808,
+          "duration" : 8719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bec266d7d234a92b149492c19093ccc"
+    }, {
+      "name" : "20964@DESKTOP-TFM2F0J.main(1)",
+      "children" : [ {
+        "name" : "Авторизация с неверными данными",
+        "uid" : "4e4493e5d9441dca",
+        "parentUid" : "a366ff97384be56790fa379dde25dad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683293211584,
+          "stop" : 1683293216716,
+          "duration" : 5132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a366ff97384be56790fa379dde25dad0"
+    }, {
+      "name" : "21324@DESKTOP-TFM2F0J.main(1)",
+      "children" : [ {
+        "name" : "badLogin()",
+        "uid" : "5b0cefdc4291ed44",
+        "parentUid" : "0f43d8448a01636f3e4e59fb5c648911",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683292974328,
+          "stop" : 1683292979060,
+          "duration" : 4732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f43d8448a01636f3e4e59fb5c648911"
+    }, {
+      "name" : "22664@DESKTOP-TFM2F0J.main(1)",
+      "children" : [ {
+        "name" : "Авторизация с неверными данными",
+        "uid" : "6eb6a40f11d1d01e",
+        "parentUid" : "8cb2d3d0b43a0362a6719519146ebc32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683293368366,
+          "stop" : 1683293373642,
+          "duration" : 5276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8cb2d3d0b43a0362a6719519146ebc32"
+    } ],
+    "uid" : "8add211126da44c79fdeb6e8dad63782"
+  } ]
+}
