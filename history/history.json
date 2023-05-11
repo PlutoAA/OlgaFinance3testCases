@@ -1,0 +1,60 @@
+{
+  "f3172282e414299b2ed6663a58db67c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13b3fa96a99bc99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830600018,
+        "stop" : 1683830608547,
+        "duration" : 8529
+      }
+    } ]
+  },
+  "db412a72c935a9371bcedddff0cf240d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d32ccb6dcded3c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830617833,
+        "stop" : 1683830622249,
+        "duration" : 4416
+      }
+    } ]
+  },
+  "5222cb0cd7b728b4de4b914312cc6073" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9093911c178354db",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nJSON path data.name doesn't match.\nExpected: (a collection containing \"memberName\")\n  Actual: <[Stepan Kazancev, Stepan, Danila, Anton , Olga Pletneva, Alex Semenenko, Admin11, Aleksepppppp, Alina, Alina Mil, Katya, Katya Pirozhkova]>\n",
+      "time" : {
+        "start" : 1683830608628,
+        "stop" : 1683830617820,
+        "duration" : 9192
+      }
+    } ]
+  }
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "9093911c178354db",
+  "name" : "Создание мембера",
+  "time" : {
+    "start" : 1683830608628,
+    "stop" : 1683830617820,
+    "duration" : 9192
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d32ccb6dcded3c6",
+  "name" : "Авторизация с неверными данными",
+  "time" : {
+    "start" : 1683830617833,
+    "stop" : 1683830622249,
+    "duration" : 4416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13b3fa96a99bc99c",
+  "name" : "Пагинация на странице проектов",
+  "time" : {
+    "start" : 1683830600018,
+    "stop" : 1683830608547,
+    "duration" : 8529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

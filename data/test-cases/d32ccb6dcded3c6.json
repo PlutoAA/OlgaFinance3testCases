@@ -1,0 +1,262 @@
+{
+  "uid" : "d32ccb6dcded3c6",
+  "name" : "Авторизация с неверными данными",
+  "fullName" : "web.OlgaFinanceTest.badLogin",
+  "historyId" : "db412a72c935a9371bcedddff0cf240d",
+  "time" : {
+    "start" : 1683830617833,
+    "stop" : 1683830622249,
+    "duration" : 4416
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод email",
+      "time" : {
+        "start" : 1683830621516,
+        "stop" : 1683830621754,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "notvalid@gmail.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1683830621754,
+        "stop" : 1683830621912,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "notvalid"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать на кнопку Lets go",
+      "time" : {
+        "start" : 1683830621912,
+        "stop" : 1683830621964,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка кнопки логина на странице",
+      "time" : {
+        "start" : 1683830621964,
+        "stop" : 1683830621986,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d7dc68cf015c961e",
+      "name" : "Скриншот на месте выполнения теста",
+      "source" : "d7dc68cf015c961e.png",
+      "type" : "image/png",
+      "size" : 30492
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-TFM2F0J"
+  }, {
+    "name" : "thread",
+    "value" : "18836@DESKTOP-TFM2F0J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "badLogin"
+  }, {
+    "name" : "suite",
+    "value" : "OlgaFinance Тест-кейсы"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8f39bf0f42396da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830457509,
+        "stop" : 1683830461858,
+        "duration" : 4349
+      }
+    }, {
+      "uid" : "e288fa73ab621cc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830377393,
+        "stop" : 1683830382223,
+        "duration" : 4830
+      }
+    }, {
+      "uid" : "3213da1bc95ed5af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830278455,
+        "stop" : 1683830280985,
+        "duration" : 2530
+      }
+    }, {
+      "uid" : "8f21d158b1e0ec6c",
+      "status" : "broken",
+      "statusDetails" : "class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.TakesScreenshot is in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1683829938007,
+        "stop" : 1683829941663,
+        "duration" : 3656
+      }
+    }, {
+      "uid" : "86407f2688f290bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683829786262,
+        "stop" : 1683829789864,
+        "duration" : 3602
+      }
+    }, {
+      "uid" : "8b36c5adf0b32292",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683829263005,
+        "stop" : 1683829266316,
+        "duration" : 3311
+      }
+    }, {
+      "uid" : "a835faacf6be7463",
+      "status" : "broken",
+      "statusDetails" : "No ParameterResolver registered for parameter [org.openqa.selenium.WebDriver arg0] in constructor [public web.OlgaFinanceTest(org.openqa.selenium.WebDriver)].",
+      "time" : {
+        "start" : 1683829192043,
+        "stop" : 1683829192045,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "28a12a4dee8ed794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683827754733,
+        "stop" : 1683827758759,
+        "duration" : 4026
+      }
+    }, {
+      "uid" : "401c89bc5ba51a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683827457040,
+        "stop" : 1683827460374,
+        "duration" : 3334
+      }
+    }, {
+      "uid" : "8d106cf845d102d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683827403993,
+        "stop" : 1683827406676,
+        "duration" : 2683
+      }
+    }, {
+      "uid" : "71805c38e39f1de1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683826177249,
+        "stop" : 1683826184633,
+        "duration" : 7384
+      }
+    }, {
+      "uid" : "f2d1cf4bf424acb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683295291825,
+        "stop" : 1683295294686,
+        "duration" : 2861
+      }
+    }, {
+      "uid" : "9d34e79800ae8fc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683293368366,
+        "stop" : 1683293373642,
+        "duration" : 5276
+      }
+    }, {
+      "uid" : "6f8fcce8aa81f1c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683293211584,
+        "stop" : 1683293216716,
+        "duration" : 5132
+      }
+    }, {
+      "uid" : "622fc6708e61618f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683292974328,
+        "stop" : 1683292979060,
+        "duration" : 4732
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d32ccb6dcded3c6.json",
+  "parameterValues" : [ ]
+}

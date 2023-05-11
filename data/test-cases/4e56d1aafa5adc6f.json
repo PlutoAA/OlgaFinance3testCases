@@ -1,0 +1,177 @@
+{
+  "uid" : "4e56d1aafa5adc6f",
+  "name" : "Пагинация на странице проектов",
+  "fullName" : "web.OlgaFinanceTest.projectPagination",
+  "historyId" : "f3172282e414299b2ed6663a58db67c",
+  "time" : {
+    "start" : 1683830264707,
+    "stop" : 1683830271345,
+    "duration" : 6638
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод email",
+      "time" : {
+        "start" : 1683830269561,
+        "stop" : 1683830269785,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "admin@gmail.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1683830269786,
+        "stop" : 1683830269916,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "olga_finance"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать на кнопку Lets go",
+      "time" : {
+        "start" : 1683830269916,
+        "stop" : 1683830269976,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход на страницу Projects",
+      "time" : {
+        "start" : 1683830269976,
+        "stop" : 1683830270618,
+        "duration" : 642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать на кнопку пагинации",
+      "time" : {
+        "start" : 1683830270619,
+        "stop" : 1683830271238,
+        "duration" : 619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать на кнопку выбора пагинации - 15",
+      "time" : {
+        "start" : 1683830271239,
+        "stop" : 1683830271303,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вывод пагинации",
+      "time" : {
+        "start" : 1683830271304,
+        "stop" : 1683830271327,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-TFM2F0J"
+  }, {
+    "name" : "thread",
+    "value" : "17520@DESKTOP-TFM2F0J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "projectPagination"
+  }, {
+    "name" : "suite",
+    "value" : "OlgaFinance Тест-кейсы"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e56d1aafa5adc6f.json",
+  "parameterValues" : [ ]
+}

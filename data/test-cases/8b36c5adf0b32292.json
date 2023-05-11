@@ -1,0 +1,132 @@
+{
+  "uid" : "8b36c5adf0b32292",
+  "name" : "Авторизация с неверными данными",
+  "fullName" : "web.OlgaFinanceTest.badLogin",
+  "historyId" : "db412a72c935a9371bcedddff0cf240d",
+  "time" : {
+    "start" : 1683829263005,
+    "stop" : 1683829266316,
+    "duration" : 3311
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод email",
+      "time" : {
+        "start" : 1683829265806,
+        "stop" : 1683829266022,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "notvalid@gmail.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1683829266022,
+        "stop" : 1683829266124,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "notvalid"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать на кнопку Lets go",
+      "time" : {
+        "start" : 1683829266125,
+        "stop" : 1683829266183,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка кнопки логина на странице",
+      "time" : {
+        "start" : 1683829266183,
+        "stop" : 1683829266208,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-TFM2F0J"
+  }, {
+    "name" : "thread",
+    "value" : "17784@DESKTOP-TFM2F0J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "web.OlgaFinanceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "badLogin"
+  }, {
+    "name" : "suite",
+    "value" : "OlgaFinance Тест-кейсы"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b36c5adf0b32292.json",
+  "parameterValues" : [ ]
+}

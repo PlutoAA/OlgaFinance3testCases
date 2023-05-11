@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 12 00:43:37 OMST 2023","Fri May 12 00:43:42 OMST 2023","4416","","OlgaFinance Тест-кейсы","","web.OlgaFinanceTest","badLogin","Авторизация с неверными данными",""
+"passed","Fri May 12 00:43:20 OMST 2023","Fri May 12 00:43:28 OMST 2023","8529","","OlgaFinance Тест-кейсы","","web.OlgaFinanceTest","projectPagination","Пагинация на странице проектов",""
+"failed","Fri May 12 00:43:28 OMST 2023","Fri May 12 00:43:37 OMST 2023","9192","","OlgaFinance Тест-кейсы","","web.OlgaFinanceTest","createMember","Создание мембера",""

@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "OlgaFinance Тест-кейсы",
+    "children" : [ {
+      "name" : "Пагинация на странице проектов",
+      "uid" : "13b3fa96a99bc99c",
+      "parentUid" : "d3ea3dd23784a2bfa8fd1cfbf342b863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830600018,
+        "stop" : 1683830608547,
+        "duration" : 8529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание мембера",
+      "uid" : "9093911c178354db",
+      "parentUid" : "d3ea3dd23784a2bfa8fd1cfbf342b863",
+      "status" : "failed",
+      "time" : {
+        "start" : 1683830608628,
+        "stop" : 1683830617820,
+        "duration" : 9192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с неверными данными",
+      "uid" : "d32ccb6dcded3c6",
+      "parentUid" : "d3ea3dd23784a2bfa8fd1cfbf342b863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683830617833,
+        "stop" : 1683830622249,
+        "duration" : 4416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d3ea3dd23784a2bfa8fd1cfbf342b863"
+  } ]
+}
